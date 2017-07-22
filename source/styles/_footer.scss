@@ -1,0 +1,45 @@
+footer {
+	display: block;
+	background-color: rgba(0, 0, 0, 0.9);
+	height: 128px;
+	margin-top: 64px;
+	padding: (32px - 8px) 32px;
+
+	.copyright {
+		display: inline-block;
+		vertical-align: middle;
+
+		.atom-logo {
+			display: block;
+			background-image: url(//theatom.co/assets/Atom2Logo.svg);
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			width: 64px + 8px;
+			height: 64px + 8px;
+			text-indent: -9999px;
+		}
+	}
+
+	nav {
+		display: inline-block;
+		height: 64px;
+		margin-top: 32px - 4px;
+		float: right;
+
+		ul {
+			li {
+				display: inline-block;
+				margin-left: 32px + 16px;
+
+				&:first-child {
+					margin-left: 0px;
+				}
+
+				a {
+					color: rgba(255, 255, 255, 1);
+				}
+			}
+		}
+	}
+}
